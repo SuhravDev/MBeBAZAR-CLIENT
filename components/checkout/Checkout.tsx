@@ -93,6 +93,7 @@ export default function Checkout() {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
+                'Access-Control-Allow-credentials': 'true',
             },
             credentials: 'include',
             body: JSON.stringify({

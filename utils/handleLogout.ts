@@ -6,6 +6,7 @@ const logeOut = async (): Promise<boolean> => {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
+                crossDomain: true,
             },
             credentials: 'include',
         }).then((res) => res.json());
