@@ -61,7 +61,9 @@
     "build/",
     "coverage/",
     "public/",
-    "pages/_document.js"
+    "pages/_document.js",
+    ".next/",
+    "next.config.js"
   ],
   "plugins": ["prettier", "react", "react-hooks"]
 }

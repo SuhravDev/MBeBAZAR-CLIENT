@@ -3,6 +3,7 @@ const path = require('path');
 
 module.exports = {
   reactStrictMode: true,
+  
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
     prependData: `@import "abstracts/variables.scss";
@@ -23,4 +24,7 @@ module.exports = {
     STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY,
     NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET,
   },
+  eslint : {
+    ignoreDuringBuilds: true,
+  }
 };

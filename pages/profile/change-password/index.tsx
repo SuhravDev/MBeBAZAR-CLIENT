@@ -4,13 +4,13 @@ import ProfileLayout from '../../../components/Profile/ProfileLayout';
 import UpdatePassword from '../../../components/Profile/Update-password/UpdatePassword';
 
 function index() {
-  return (
-    <Layout>
-      <ProfileLayout>
-        <UpdatePassword />
-      </ProfileLayout>
-    </Layout>
-  );
+    return (
+        <Layout>
+            <ProfileLayout>
+                <UpdatePassword />
+            </ProfileLayout>
+        </Layout>
+    );
 }
 
 export default withAuth(index);
