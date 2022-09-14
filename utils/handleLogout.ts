@@ -13,7 +13,6 @@ const logeOut = async (): Promise<boolean> => {
             return false;
         }
         localStorage.removeItem('user');
-        localStorage.removeItem('session');
         const loggedOut = await signOut();
         if (loggedOut) {
             return true;
