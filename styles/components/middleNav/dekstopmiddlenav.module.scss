@@ -42,6 +42,7 @@
       }
       .logo {
         @media screen and (max-width: $md) {
+          cursor: pointer;
           display: none;
         }
       }
